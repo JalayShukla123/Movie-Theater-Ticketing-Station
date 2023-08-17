@@ -225,9 +225,6 @@ public class Main {
     		}
 		}
 		catch (Exception e) {
-			//If It is Invalid File Name Exception, print error message
-			//If not, print the stacktrace.
-			//e.printStackTrace();
 			scnr.close();
 		    System.out.println("Invalid File name");
 		    return;
